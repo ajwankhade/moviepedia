@@ -10,7 +10,7 @@ const Login = () => {
 				<input className="border border-white rounded-md px-4 py-2" type="text" placeholder="Enter your email ID"></input>
 				<input className="border border-white rounded-md px-4 py-2" type="password" placeholder="Enter your password *****"></input>
 				<button className="bg-red-600 rounded-md px-4 py-2 cursor-pointer" >Sign In</button>
-				<p>Don't have signed up yet? Click <a>here</a> to sign up</p>
+				<p>Don't have signed up yet? Click <a className="underline cursor-pointer">here</a> to sign up</p>
 			</div>
 		</div>
 	)
